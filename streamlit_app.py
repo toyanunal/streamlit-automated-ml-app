@@ -15,11 +15,11 @@ with st.sidebar:
     st.image(automl)
     st.title("Automated ML App")
     choice = st.radio("Navigation", ['Upload', 'Profiling', 'Modelling', 'Download'])
-    st.info("This app explores given dataset and creates best models.")
+    st.info("This app explores given dataset, builds and compares models.")
 
 if choice == "Upload":
     st.title("Upload Your Dataset")
-    file = st.file_uploader("Upload Your Dataset")
+    file = st.file_uploader("")
     if file:
         df = pd.read_csv(file, index_col=None)
         df.to_csv("dataset.csv", index=None)
@@ -31,11 +31,12 @@ if choice == "Profiling":
     st_profile_report(profile_df)
 
 if choice == "Modelling":
+    st.title("Model Building")
     task = st.selectbox("Choose the Modelling Task", ['Classification', 'Regression'])
     target = st.selectbox("Choose the Target Column", df.columns)
     if st.button("Run Modelling"):
         if task == "Classification":
-            clf = classification.setup(data=df, target=target) # silent=True
+            clf = classification.setup(data=df, target=target, silent=True)
             setup_df = classification.pull()
             st.dataframe(setup_df)
             best_model = classification.compare_models()
@@ -43,7 +44,7 @@ if choice == "Modelling":
             st.dataframe(compare_df)
             classification.save_model(best_model, 'best_model')
         elif task == "Regression":
-            reg = regression.setup(data=df, target=target)
+            reg = regression.setup(data=df, target=target, silent=True)
             setup_df = regression.pull()
             st.dataframe(setup_df)
             best_model = regression.compare_models()
