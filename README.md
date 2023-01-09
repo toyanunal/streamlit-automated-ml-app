@@ -1,7 +1,7 @@
 # Automated ML App
 This is the repo for my Automated ML App.
 
-The app allows users to upload their datasets; conduct exploratory data analysis using Pandas-Profiling; train models, compare these models and select best model based on predefined performance metrics; and save the best model to local drives.
+The app allows users to upload their datasets; conduct exploratory data analysis using Pandas-Profiling; train models, compare these models and select best model using PyCaret; and save the best model to local drive.
 
 ## Technologies Used
 <ul>
