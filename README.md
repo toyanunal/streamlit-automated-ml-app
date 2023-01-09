@@ -31,8 +31,8 @@ streamlit run streamlit_app.py
 
 ## Screenshots
 ### Home page-1
-![image](https://user-images.githubusercontent.com/59750131/211337839-3a7398ba-1c92-465e-92a4-be77c26cdfe8.png)
+![image](https://user-images.githubusercontent.com/59750131/211341070-3b1e7d9e-2838-488b-800e-9e8d831daa3c.png)
 ### Home page-2
-![image](https://user-images.githubusercontent.com/59750131/211338265-507f55bd-7c72-45cc-ae3c-dc6b8866d4e2.png)
+![image](https://user-images.githubusercontent.com/59750131/211341382-0b3ed047-6332-4db3-8a00-70225a25760e.png)
 ### Home page-3
-![image](https://user-images.githubusercontent.com/59750131/211338465-8ffca02a-605b-4758-a2e5-d7ae746cb76f.png)
+![image](https://user-images.githubusercontent.com/59750131/211341661-78158788-9f7b-4267-8d50-b0822644c42f.png)
