@@ -13,5 +13,5 @@ The app allows users to upload their datasets; conduct exploratory data analysis
 </ul>
 
 ## Deployed Application
-* [https://toyanunal-streamlit-automated-ml-app-streamlit-app-l3zzmg.streamlit.app/)
+* [https://toyanunal-streamlit-automated-ml-app-streamlit-app-l3zzmg.streamlit.app/](https://automated-ml-app.streamlit.app/)
 
