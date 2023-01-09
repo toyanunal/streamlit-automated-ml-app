@@ -30,9 +30,7 @@ streamlit run streamlit_app.py
 ```
 
 ## Screenshots
-### Home page-1
+### Home page
 ![image](https://user-images.githubusercontent.com/59750131/211341070-3b1e7d9e-2838-488b-800e-9e8d831daa3c.png)
-### Home page-2
 ![image](https://user-images.githubusercontent.com/59750131/211341382-0b3ed047-6332-4db3-8a00-70225a25760e.png)
-### Home page-3
 ![image](https://user-images.githubusercontent.com/59750131/211341661-78158788-9f7b-4267-8d50-b0822644c42f.png)
